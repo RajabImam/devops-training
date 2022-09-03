@@ -1,0 +1,23 @@
+Creating Repository
+1. git init - initialiaze repository
+2. git status - to know the status of files, directory, repository track or not 
+3. git add (filename) or . (everything) - track everything/file specified
+4. git commit -m "message for the commit" - save to the file system
+5. git remote add origin "<URL to repository>" - add content to remote repository
+6. git push origin master - upload to remote
+7. git clone <URL> - use existing repository to copy remote to local
+8. git pull <URL link> - to get the updated version from the remote repository
+
+
+Making Changes
+
+
+
+Syncing Repository
+
+
+
+Parallel Development
+1. git branch <name of branch> - create a branch
+2. git branch -D <name of brach> - delete the branch
+3. git checkout <branch name> - switch to branch
