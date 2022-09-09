@@ -1,4 +1,11 @@
 Creating Repository
+
+Making Changes
+
+Syncing Repository
+
+Parallel Development
+
 1. git init - initialiaze repository
 2. git status - to know the status of files, directory, repository track or not 
 3. git add (filename) or . (everything) - track everything/file specified
@@ -8,19 +15,10 @@ Creating Repository
 7. git clone <URL> - use existing repository to copy remote to local
 8. git pull <URL link> - to get the updated version from the remote repository
 
-
-Making Changes
-
-
-
-Syncing Repository
-
-
-
-Parallel Development
 1. git branch <name of branch> - create a branch
 2. git branch -D <name of brach> - delete the branch
 3. git checkout <branch name> - switch to branch
 4. git log - the history of the repository
 5. git stash - pause/hold to switch and to come back later, multi tasking
 6. git revert (commit id) - go back to previous commit
+7. git diff (commit id) - difference btw two commit/files

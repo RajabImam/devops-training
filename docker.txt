@@ -1,0 +1,28 @@
+Intro to Docker - os level virtualization, containerization 
+
+Common Docker commands
+1. docker --version - to check for the version install
+2. docker pull (image name) - download image
+3. docker images - to check the downloaded images
+4. docker run -it -d - run interactive (-it) and in demon background (-d) 
+5. docker ps - show the container that has started
+6. docker stop (id) - stop the container
+7. docker ps -a - shows all containers available started or stop
+8. docker exec -it (container-id) bash - go inside the container
+9. docker kill (container-id) - terminate container
+10. docker rm (container-id) - to remove/delete container
+11. docker rmi (image-id) - to remove image from the system 
+12. docker commit (container-id) (name for image) - save changes inside a container
+13. docker rm -f (docker ps -a -q) - remove all containers at once
+14. docker login - to login to the docker hub
+15. docker push (container name) - to push to the docker hub
+
+Docker file - text document how you want the container to be customised  
+1. FROM 2. ADD 3. RUN 4. CMD 5. ENTRYPOINT 6. ENV
+Docker volumes - persist data across the lifetime of a container
+
+Monolithic application
+
+Docker compose
+Container Orchestration
+Docker swarm
